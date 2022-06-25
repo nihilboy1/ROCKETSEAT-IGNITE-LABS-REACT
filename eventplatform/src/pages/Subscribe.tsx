@@ -2,7 +2,7 @@ import { FormEvent, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { Logo } from '../components/Logo'
 import { useCreateSubscriberMutation } from '../graphql/generated'
-import coldMockup from "../images/coldmockup.png"
+import coldMockup from '../images/coldmockup.png'
 
 export function Subscribe() {
   const navigate = useNavigate()
@@ -31,9 +31,9 @@ export function Subscribe() {
         <div className="max-w-[640px]">
           <Logo />
           <h1 className="mt-8 text-[2.5rem] leading-tight">
-            Construa uma
+            Construa uma{''}
             <strong className="text-blue-500">aplicação completa,</strong> do
-            zero, com
+            zero, com{''}
             <strong className="text-blue-500">React</strong>
           </h1>
           <p className="mt-4 text-gray-200 leading-relaxed">
